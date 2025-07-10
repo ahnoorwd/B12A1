@@ -1,4 +1,15 @@
 
+
+
+.raleway-normal {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+
+
 *{
     margin: 0;
 }
@@ -37,6 +48,177 @@ nav li a {
     margin-bottom: 25px;
 }
 
+/* main section is start from here  */
+.action-sec{
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin:100px auto;
+width: 1140px;
+height: 330px;
+border-radius: 10px;
+border: 2px solid green ;
+}
+
+.img-wc-mini{
+    width: 350px;
+    height: 300px;
+    border-radius: 20px;
+}
+.action-title{
+    font-size: 40px;
+    font-weight: bold;
+    color: #252432;
+    margin-bottom: 10px;
+}
+.action-desc{
+    width: 450px;
+    font-size: 24px;
+    color: gray;
+    border:2px solid yellow;
+    margin-bottom: 30px;
+}
+/* productive users style is start fro here  */
+ .productive-users{
+    margin:100px auto;
+    width: 1140px;
+    height: 330px;
+    background-color:#EAE6FD;
+    border-radius: 10px;
+    /* border: 2px solid blue; */
+} 
+.productive-title{
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 38px;
+    color: #252432;
+}
+.productive-desc{
+    color: gray;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.productive-menu{
+    padding: 50px 142px;
+    display: flex;
+    justify-content: space-around;
+    
+    border: 2px solid red;
+}
+.productive-tools{
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF;
+}
+
+
+
+/* 
+.stats-section {
+  background-color: #EAE6FD;
+  padding: 50px 20px;
+  max-width: 1140px;
+  margin: 0 auto;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.stats-heading {
+  font-size: 28px;
+  font-weight: bold;
+  color: #1C1C1C;
+  margin-bottom: 40px;
+}
+
+.stats-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.stat-box {
+  flex: 1; 
+   min-width: 150px;
+}
+
+.stat-number {
+  font-size: 40px;
+  color: #4C00FF;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.stat-label {
+  font-size: 16px;
+  color: #7E7E7E;
+} */
+
+/* chalange part is start from here  */
+
+.testimonial-section {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 50px 20px;
+  background-color: #f6f8ff; /* light background like in image */
+  text-align: center;
+  border-radius: 20px;
+}
+
+.testimonial-heading {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  color: #1c1c1c;
+}
+
+.testimonial-cards {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.testimonial-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  width: 300px;
+  text-align: left;
+}
+
+.stars {
+  color: gold;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.testimonial-card h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.testimonial-card p {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.reviewer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.reviewer img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
 
 /* commom style here */
 
@@ -46,7 +228,7 @@ nav li a {
     color: #FFFFFF;
     font-size: 16px;
     font-weight: bold;
-    padding: 10px;
+    padding: 15px;
     border: none;
     border-radius: 10px;
 }
