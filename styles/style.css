@@ -14,6 +14,15 @@
     margin: 0;
 }
 
+.icon-text-link {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  color: #000;
+}
+.icon-text-link img {
+  margin-right: 8px; 
+}
 header{
     background-image: url(../Assets/Hero-bg.png);
     width: 100%;
@@ -221,45 +230,6 @@ border: 2px solid green ;
 }
 
 
-/* footer style is stars from here  */
-
-.footer {
-  width: 100%;
-  text-align: center;
-  padding: 40px 20px;
-  background-color: #f9f9fc;
-}
-
-.logo {
-  font-size: 48px;
-  color: #4F46E5; /* matching the purple color */
-  font-weight: bold;
-  margin: 0;
-}
-
-.footer-text {
-  color: #888;
-  font-size: 14px;
-  max-width: 600px;
-  margin: 20px auto;
-  line-height: 1.5;
-}
-
-.footer-links {
-  margin-top: 20px;
-}
-
-.footer-links a {
-  margin: 0 15px;
-  color: #888;
-  text-decoration: none;
-  font-size: 14px;
-}
-
-.footer-links a:hover {
-  text-decoration: underline;
-}
-
 /* commom style here */
 
 /* common btn style  */
@@ -271,4 +241,37 @@ border: 2px solid green ;
     padding: 15px;
     border: none;
     border-radius: 10px;
+}
+
+/* footer style is stars from here  */
+.footer {
+  width: 100%;
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+  color: #444;
+}
+
+.footer-text {
+  font-size: 14px;
+  margin: 10px 0 20px;
+}
+
+.footer-icons a {
+  margin: 0 10px;
+  display: inline-block;
+  align-items: center;
+}
+
+.footer-icons img {
+  width: 50px;
+  height: 50px;
+
+  
+}
+
+.copyright {
+  margin-top: 20px;
+  font-size: 13px;
+  color: #888;
 }
