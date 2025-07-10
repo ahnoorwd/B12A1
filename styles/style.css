@@ -164,6 +164,7 @@ border: 2px solid green ;
   background-color: #f6f8ff; /* light background like in image */
   text-align: center;
   border-radius: 20px;
+  margin-bottom: 50px;
 }
 
 .testimonial-heading {
@@ -219,6 +220,45 @@ border: 2px solid green ;
   border-radius: 50%;
 }
 
+
+/* footer style is stars from here  */
+
+.footer {
+  width: 100%;
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #f9f9fc;
+}
+
+.logo {
+  font-size: 48px;
+  color: #4F46E5; /* matching the purple color */
+  font-weight: bold;
+  margin: 0;
+}
+
+.footer-text {
+  color: #888;
+  font-size: 14px;
+  max-width: 600px;
+  margin: 20px auto;
+  line-height: 1.5;
+}
+
+.footer-links {
+  margin-top: 20px;
+}
+
+.footer-links a {
+  margin: 0 15px;
+  color: #888;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
 
 /* commom style here */
 
