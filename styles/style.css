@@ -122,48 +122,6 @@ border: 2px solid green ;
 }
 
 
-
-/* 
-.stats-section {
-  background-color: #EAE6FD;
-  padding: 50px 20px;
-  max-width: 1140px;
-  margin: 0 auto;
-  border-radius: 12px;
-  text-align: center;
-}
-
-.stats-heading {
-  font-size: 28px;
-  font-weight: bold;
-  color: #1C1C1C;
-  margin-bottom: 40px;
-}
-
-.stats-container {
-  display: flex;
-  justify-content: space-around;
-  gap: 20px;
-  flex-wrap: wrap;
-}
-
-.stat-box {
-  flex: 1; 
-   min-width: 150px;
-}
-
-.stat-number {
-  font-size: 40px;
-  color: #4C00FF;
-  font-weight: bold;
-  margin-bottom: 10px;
-}
-
-.stat-label {
-  font-size: 16px;
-  color: #7E7E7E;
-} */
-
 /* chalange part is start from here  */
 
 .testimonial-section {
@@ -241,16 +199,27 @@ border: 2px solid green ;
 } */
 
 /* ready to focused part are style from here  */
+.get-ready-container{
+  width: 100%;
+  /* border: 2px solid hotpink; */
+  background-color: #f6f8ff;
+  padding: 10px;
+}
 .ready-action {
   max-width: 1140px;
   margin: 100px auto;
   padding: 60px 30px;
-  background-color: #f6f8ff;
+  background-color:white; 
   border-radius: 20px;
   text-align: center;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
 }
-
+ .optional-img{
+  width: 840px;
+  height: 360px;
+  border-radius: 20px;
+  margin-top: 20px;
+ }
 .ready-content h1 {
   font-size: 32px;
   font-weight: 700;
@@ -386,7 +355,7 @@ border: 2px solid green ;
 
 .footer-icons img {
   width: 50px;
-  height: 50px;
+  height:50px;
 
   
 }
