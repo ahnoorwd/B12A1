@@ -170,7 +170,7 @@ border: 2px solid green ;
   max-width: 1140px;
   margin: 0 auto;
   padding: 50px 20px;
-  background-color: #f6f8ff; /* light background like in image */
+  background-color: #f6f8ff; 
   text-align: center;
   border-radius: 20px;
   margin-bottom: 50px;
@@ -228,11 +228,126 @@ border: 2px solid green ;
   height: 40px;
   border-radius: 50%;
 }
+/* let's touch section are style here */
+/* .lets-touch{
+  max-width: 1140px;
+  padding: 50px 20px;
+  background-color: #f6f8ff; 
+  margin: 131px  auto;
+  display: flex;
+}
+.form-action{
+  
+} */
+
+/* ready to focused part are style from here  */
+.ready-action {
+  max-width: 1140px;
+  margin: 100px auto;
+  padding: 60px 30px;
+  background-color: #f6f8ff;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+.ready-content h1 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.ready-content small {
+  display: block;
+  font-size: 14px;
+  color: #4a90e2;
+  background-color: #e4f0ff;
+  padding: 8px 16px;
+  margin: 0 auto 24px;
+  width: fit-content;
+  border-radius: 6px;
+}
+
+/* let's touch section  */
+.lets-touch {
+  max-width: 1140px;
+  margin: 100px auto;
+  padding: 50px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f6f8ff;
+  gap: 40px;
+  border-radius: 20px;
+}
+
+.touch-text h1 {
+  font-size: 80px;
+  font-weight: 700;
+  /* line-height: 1.2; */
+  color: #000000;
+}
+
+.form-action {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  flex: 1;
+  max-width: 400px;
+}
+
+.form-action form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-action label {
+  font-weight: 600;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.form-action input,
+.form-action textarea {
+  padding: 12px;
+  font-size: 14px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  /* background-color: #f6f8ff; */
+  margin-bottom: 10px;
+  resize: none;
+}
+
+.form-action textarea {
+  height: 100px;
+}
+
+.form-action button {
+  background-color: #5a54f8;
+  color: white;
+  padding: 14px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.form-action button:hover {
+  background-color: #4039e7;
+
+}
+
 
 
 /* commom style here */
 
 /* common btn style  */
+
 .primary-btn{
     background-color: blue;
     color: #FFFFFF;
@@ -241,6 +356,12 @@ border: 2px solid green ;
     padding: 15px;
     border: none;
     border-radius: 10px;
+}
+.primary-btn:hover {
+  background-color: #4a4a4a; 
+  transform: scale(1.05); 
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
 }
 
 /* footer style is stars from here  */
